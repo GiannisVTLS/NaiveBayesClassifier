@@ -5,6 +5,8 @@ Project for the Artificial Intelligence course at AUEB. Implemented the Naive Ba
 
 The task of the project was to implement learning algorithms, so that they can be used to classify texts into two (unrelated) categories (e.g. positive/negative opinion).
 
+The learning capabilities are demonstrated using the "Large Movie Review Dataset", also known as the <a href="https://ai.stanford.edu/~amaas/data/sentiment/">IMDB Dataset</a>
+
 The vocabulary includes the "m" most frequent words in the training data (or the whole dataset), skipping the n most frequent words first. Property selection via information gain calculation (or other means) in the naive Bayes classifier is added using the Laplace estimator.
 
 The report contains the results of the experiments performed on my implementation on this dataset, showing
